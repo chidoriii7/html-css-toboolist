@@ -1,0 +1,57 @@
+
+body {
+    background: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.toboolist {
+    font-size: 50px;
+    background-color: white;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.buttons-background {
+    width: 70%;
+    height: 70px;
+    background-color: white;
+    margin: auto;
+    padding-left: 60px;
+    border-bottom: 0;
+}
+
+.buttons {
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.button-task {
+    border-radius: 8px;
+    background-color: skyblue;
+    border: none;  
+}
+
+.button-selection {
+    border-radius: 8px;
+    background-color: white;
+    color: lightgrey;
+    border-color: lightgrey;
+}
+
+.listbox {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    padding-left: 60px;   
+}
+
