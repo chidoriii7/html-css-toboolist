@@ -1,3 +1,8 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background: whitesmoke;
@@ -23,7 +28,21 @@ ul, ol {
     background-color: white;
     margin: auto;
     padding-left: 60px;
-    border-bottom: 0;
+    
+}
+
+.vert-align {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.toboolist .todolist-img {
+
+}
+
+.toboolist .todolist-txt {
+    margin: 0;
+    font-size: 40px;
 }
 
 .buttons {
@@ -53,5 +72,57 @@ ul, ol {
     background-color: white;
     margin: auto;
     padding-left: 60px;   
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
+.to-dosection {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li {
+    font-size: 15px;
+    margin: 15px;
+}
+
+.check {
+    color: lightgreen;
+    background-color: none;
+}
+
+.cross {
+    color: red;
+}
+
+.sticker {
+    font-size: 10px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+.editorial {
+    background-color: skyblue;
+}
+
+.q1-goals {
+    background-color: purple;
+}
+
+.recruiting {
+    background-color: greenyellow;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: magenta;
+}
+
+.sales {
+    background-color: lime;
+}
